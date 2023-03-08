@@ -1,6 +1,6 @@
 Build secure software fast with Fortify. Fortify offers end-to-end application security solutions with the flexibility of testing on-premises and on-demand to scale and cover the entire software development lifecycle. With Fortify, find security issues early and fix at the speed of DevOps.
 
-Repositories in this organization are categorized using GitHub topics. Following are the main categories; note that a repository may appear in multiple categories.
+Repositories in this organization are categorized using GitHub topics. Following are the main categories, note that a repository may appear in multiple categories.
 
 * Function-based categories:
     * [fortify-integration](https://github.com/search?q=org%3Afortify+topic%3Afortify-integration)
