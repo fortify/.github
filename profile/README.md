@@ -12,8 +12,9 @@ Repositories in this organization are categorized using GitHub topics. Following
     * [fortify-documentation](https://github.com/search?q=org%3Afortify+topic%3Afortify-documentation)
 * Product-based categories:
     * [fortify-sca](https://github.com/search?q=org%3Afortify+topic%3Afortify-sca)
-    * [fortify-sc-sast](https://github.com/search?q=org%3Afortify+topic%3Afortify-sc-sast)
     * [fortify-webinspect](https://github.com/search?q=org%3Afortify+topic%3Afortify-webinspect)
+    * [fortify-sc-sast](https://github.com/search?q=org%3Afortify+topic%3Afortify-sc-sast)
     * [fortify-sc-dast](https://github.com/search?q=org%3Afortify+topic%3Afortify-sc-dast)
+    * [fortify-on-demand](https://github.com/search?q=org%3Afortify+topic%3Afortify-on-demand)
     * [debricked](https://github.com/search?q=org%3Afortify+topic%3Adebricked)
 
