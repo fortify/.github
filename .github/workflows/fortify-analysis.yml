@@ -1,20 +1,10 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-################################################################################################################################################
-# Fortify lets you build secure software fast with an appsec platform that automates testing throughout the DevSecOps pipeline. Fortify static,#
-# dynamic, interactive, and runtime security testing is available on premises or as a service. To learn more about Fortify, start a free trial #
-# or contact our sales team, visit microfocus.com/appsecurity.                                                                                 #
-#                                                                                                                                              #
-# Use this workflow template as a basis for integrating Fortify on Demand Static Application Security Testing(SAST) into your GitHub workflows.#
-# This template demonstrates the steps to prepare the code+dependencies, initiate a scan, download results once complete and import into       #
-# GitHub Security Code Scanning Alerts. Existing customers should review inputs and environment variables below to configure scanning against  #
-# an existing application in your Fortify on Demand tenant. Additional information is available in the comments throughout the workflow, the   #
-# documentation for the Fortify actions used, and the Fortify on Demand / ScanCentral Client product documentation. If you need additional     #
-# assistance with configuration, feel free to create a help ticket in the Fortify on Demand portal.                                            #
-################################################################################################################################################
+# Reusable workflow file for running Fortify on Demand SAST & Debricked scans if the following secrets are available:
+# - OSS_FOD_TENANT
+# - OSS_FOD_USER
+# - OSS_FOD_PASSWORD
+# These secrets are managed at github.com/fortify/fortify organization level, but may need to be granted access to for
+# repositories that need to be scanned, and pull requests generated from forks will not have access to those secrets.
+# In such cases, the FoD scan will be skipped without errors.
 
 name: Fortify on Demand Scan
 
