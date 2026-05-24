@@ -6,11 +6,6 @@ name: Check for duplicate run
 
 on:
   workflow_call:
-    inputs:
-      workflow_name:
-        description: 'Display name of the calling workflow (used when renaming a skipped run)'
-        type: string
-        required: true
     outputs:
       should_skip:
         description: '"true" if the run should be skipped, empty or "false" otherwise'
@@ -58,4 +53,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_ID: ${{ github.run_id }}
-          WORKFLOW_NAME: ${{ inputs.workflow_name }}
+          WORKFLOW_NAME: ${{ github.workflow }}
